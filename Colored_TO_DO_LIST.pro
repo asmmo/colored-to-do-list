@@ -7,7 +7,7 @@
 #OBJECTS_DIR = $$PWD/shadow-builds/$$dest_path/.OBJECTS
 #UI_DIR = $$PWD/shadow-builds/$$dest_path/.UI
 
-QT       += core gui
+QT     += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 CONFIG += c++20
